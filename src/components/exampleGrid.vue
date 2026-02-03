@@ -1,7 +1,6 @@
 <template>
   <div>
     <ag-grid-vue  :theme="themeAlpine" style="width: 100%; height: 500px" :columnDefs="columnsDefs" :rowData="rootItems" :treeData="true" :getDataPath="getDataPath" :getRowId="getRowId" :defaultColDef="defaultColDef" :autoGroupColumnDef="autoGroupColumnDef" :getRowClass="getRowClass" @grid-ready="onGridReady"/>
-    {{props.store}}
   </div>
 </template>
 
